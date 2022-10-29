@@ -1,0 +1,93 @@
+/* Write your CSS code here. */
+.bg {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 12px;
+  width: 600px;
+  max-width: 80%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f172a;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+.emoji-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.emoji-image {
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-image {
+    width: 60px;
+  }
+}
+
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.thankyou-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  width: 600px;
+  max-width: 80%;
+}
+
+.love-emoji {
+  width: 100px;
+}
+
+.greeting {
+    font-family: "Roboto";
+    font-size: 32px;
+    color: #0f172a;
+}
+
+.msg {
+    font-family: "Roboto";
+    font-size: 16px;
+    color:  #1e293b;
+    text-align: center;
+}
